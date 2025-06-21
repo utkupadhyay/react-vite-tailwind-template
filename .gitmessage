@@ -1,0 +1,57 @@
+# <type>[optional scope]: <emoji> <description>
+#
+# [Optional detailed description in bullet points]
+# - Point 1: describe what was changed
+# - Point 2: explain why it was changed  
+# - Point 3: mention any breaking changes or notes
+#
+# Examples:
+#
+# Single line commit:
+# feat: ✨ add dark mode toggle
+#
+# Multi-line commit with details:
+# feat(auth): ✨ implement oauth2 integration
+#
+# - Add Google OAuth2 provider configuration
+# - Create user session management system
+# - Implement token refresh mechanism
+# - Add error handling for auth failures
+#
+# Remember: 
+# - Use lowercase for description
+# - Keep first line under 100 characters
+# - Use present tense ("add" not "added")
+# - Leave blank line before bullet points
+# - Each bullet point should be under 100 characters
+#
+# Types with emojis:
+# feat: ✨ new feature
+# fix: 🐛 bug fix
+# docs: 📚 documentation
+# style: 💄 formatting, ui changes
+# refactor: ♻️ code refactoring
+# test: 🧪 adding tests
+# chore: 🔧 maintenance
+# perf: ⚡ performance improvements
+# ci: 👷 ci/cd updates
+# build: 📦 build system updates
+# revert: ⏪ revert changes
+#
+# Scopes (optional):
+# auth, ui, api, db, config, deps, docs, test, components
+#
+# More Examples:
+#
+# fix(ui): 🐛 resolve mobile navigation issues
+#
+# - Fix hamburger menu not closing on item click
+# - Resolve overlay z-index conflicts
+# - Improve touch responsiveness on iOS devices
+#
+# chore(deps): 📦 upgrade project dependencies
+#
+# - Update React from 18.2 to 18.3
+# - Upgrade TypeScript to latest stable version
+# - Update testing libraries for compatibility
+# - Remove deprecated package dependencies
